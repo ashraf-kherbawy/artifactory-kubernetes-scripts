@@ -1,0 +1,28 @@
+global:
+  joinKey: e2c280e6ec40ffec375454a82e7192955615114ebd346a656262f8765094c5f7
+  masterKey: 6b91cafb8c80ef7c95571ae8ba5635cfce8c13a2c830f0902a49fc17416d8c09
+
+artifactory:
+  enabled: true
+  mc:
+    enabled: true
+xray:
+  enabled: true
+# If enabling Xray, rabbitmq should also be enabled
+rabbitmq:
+  enabled: true
+
+distribution:
+  enabled: false
+
+insight:
+  enabled: false
+
+pipelines:
+  enabled: false
+
+redis:
+  enabled: false
+
+pdnServer:
+  enabled: false
